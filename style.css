@@ -1,0 +1,46 @@
+#resumeBody {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#resumeEmailDivision {
+  text-align: right;
+  background: lightgray;
+  border: 5px solid red;
+  border-radius: 2vh;
+}
+#resumeNameHeadline {
+  font-size: 4vh;
+}
+#eduQuali {
+  border: 3px solid black;
+}
+.Head {
+  border: 3px solid blue;
+}
+/* .body {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+.bodybottom {
+  border-bottom: 3px solid black;
+  padding: 1vh;
+} */
+
+table thead tr td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+table tbody tr td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#eduTable {
+  width: 100%;
+}
+#bottomDivision {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
