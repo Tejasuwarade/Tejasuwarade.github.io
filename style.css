@@ -39,13 +39,18 @@ table tbody tr td {
 #bottomdivision {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* //justify-content: space-between; */
 }
 
 .Heading {
   font-weight: bold;
   font-size: 22px;
   text-decoration: underline;
+  padding: 1em;
+}
+.subheading {
+  font-size: 20px;
+  padding: 1em;
 }
 .location {
   text-align: right;
@@ -57,15 +62,14 @@ table tbody tr td {
   font-weight: bold;
   font-size: 30px;
   text-decoration: underline;
+  padding-left: 10em;
 }
 
-.subheading {
-  font-size: 20px;
-}
 #rightdivision {
   font-weight: bold;
   font-size: 30px;
   text-decoration: underline;
+  padding-left: 1em;
 }
 #RelatedContent {
   font-weight: bold;
@@ -78,10 +82,11 @@ table tbody tr td {
 }
 .vl {
   border-left: 2px solid black;
-  height: 600px;
+  height: 800px;
 }
 #skills {
   font-weight: bold;
   font-size: 30px;
   text-decoration: underline;
+  padding-left: 1em;
 }
