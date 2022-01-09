@@ -6,26 +6,26 @@
 #resumeEmailDivision {
   text-align: right;
   background: lightgray;
-  border: 5px solid red;
+  border: 5px solid rgb(39, 15, 15);
   border-radius: 2vh;
 }
 #resumeNameHeadline {
   font-size: 4vh;
 }
 #eduQuali {
-  border: 3px solid black;
+  border: 1px solid black;
 }
 .Head {
-  border: 3px solid blue;
+  border: 1px solid black;
 }
-/* .body {
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+.body {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 .bodybottom {
   border-bottom: 3px solid black;
   padding: 1vh;
-} */
+}
 
 table thead tr td {
   border-left: 1px solid black;
@@ -39,8 +39,52 @@ table tbody tr td {
 #eduTable {
   width: 100%;
 }
-#bottomDivision {
+#bottomdivision {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.Heading {
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.location {
+  text-align: right;
+}
+.time {
+  text-align: right;
+}
+#leftdivision {
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.subheading {
+  font-size: 20px;
+}
+#rightdivision {
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: underline;
+}
+#RelatedContent {
+  font-weight: bold;
+  font-size: 30px;
+}
+#Related {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vl {
+  border-left: 2px solid black;
+  height: 500px;
+}
+#skills {
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: underline;
 }
